@@ -9,7 +9,7 @@ variable "gcp_current_region"{
 variable "gcp_credentials_path"{
 
 
-    default="C:\\Users\\Raghav Gupta\\AppData\\Roaming\\gcloud\\application_default_credentials.json"
+    default="path\to\credentials\file"
 }
 
 
@@ -108,7 +108,7 @@ variable "aws_region"{
 variable "aws_profile"{
 
 
- default="tera-user"
+ default="profile"
 
 }
 
@@ -156,11 +156,11 @@ variable "aws_rds_dbname"{
 
 variable "aws_rds_username"{
 
-    default="admin"
+    default="username"
 }
 
 variable "aws_rds_password"{
 
 
-    default="redhat.1234"
+    default="password"
 }
