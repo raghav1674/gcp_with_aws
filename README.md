@@ -17,3 +17,5 @@
 2) You can also create the Database using the AWS Cloud
 
 3) Hybrid Multi-Cloud guys can also implement the same using Terraform
+
+**I implented this task using terraform and launched Aws db instance and connected to Wordpress running IN GCP under the GCE service**
