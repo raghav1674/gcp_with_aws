@@ -35,7 +35,7 @@ resource "aws_db_instance" "wp-db" {
   parameter_group_name = "default.mysql5.7"
   publicly_accessible  = var.aws_rds_publicly_accessible
   deletion_protection = var.aws_rds_deletion_protection
-  skip_final_snapshot= false
+  skip_final_snapshot= true
 }
 
 
